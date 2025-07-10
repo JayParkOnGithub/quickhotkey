@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Hotkey",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Quick Hotkey for YouTube"
+  }
+}
