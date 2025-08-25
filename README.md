@@ -19,13 +19,8 @@ This extension was created out of sheer lazyness and annoyance that Youtube's Ma
 
 ### Privacy & Permissions
 
-- Runs only on `*://www.youtube.com/*`.
+- Runs only on YouTube.
 - No data is collected or sent anywhere.
-
-### Development notes
-
-- YouTube frequently changes component names and markup. If the selector for the menu button or the menu items changes, update `content.js` and/or `actionLabel.js` accordingly.
-- Test in an Incognito window (with "Allow in Incognito" enabled) to avoid conflicts with other extensions.
 
 ### License
 
